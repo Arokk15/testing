@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>testing</title>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyA5tCaxXD7fjRvKcRlVP0Gl6xahaqQ1aGo",
+            authDomain: "testing-c5296.firebaseapp.com",
+            databaseURL: "https://testing-c5296-default-rtdb.firebaseio.com",
+            projectId: "testing-c5296",
+            storageBucket: "testing-c5296.appspot.com",
+            messagingSenderId: "1024037366982",
+            appId: "1:1024037366982:web:f31e9d9fd68255895b3bc7"
+        };
+        firebase.initializeApp(firebaseConfig)
+
+    </script>
+
+</head>
+
+<body>
+    <h1 id="asdf"></h1>
+
+    <div id="create_btn" style="width:50px;height:50px;background-color:red;margin-left:50px">
+        <div id="inp">
+            <input type="text" id="name" placeholder="name">
+            <input type="text" id="rate" placeholder="price">
+            <input type="text" id="vantor" placeholder="vantor">
+
+        </div>
+    </div>
+    <div id="boxes" style="width:fit-content;background-color:red;margin-left:50px"></div>
+
+    <script src="./testing.js"></script>
+    <script src="./create.js"></script>
+</body>
+
+</html>
